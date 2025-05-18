@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2025-05-18T11:31:20.052Z",
+      "eventName": "ObjectCreated:Copy",
+      "userIdentity": {
+        "principalId": "A2D28BXN08GMO"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "124.29.197.248"
+      },
+      "responseElements": {
+        "x-amz-request-id": "BVYDVB8RKSAXPDTH",
+        "x-amz-id-2": "umzP/qtCS71mJx73zh6JC2NFl2Cx7452E2ZQvC8/ymUlUu71FLq3yWKRpMYEY3OIqPZ7NStJ9k8lmI/E2di3r4idSyb8CGhe"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "fdec384b-b3ae-42f2-82a9-c2dd0924033b",
+        "bucket": {
+          "name": "s3-stock-prices-ms",
+          "ownerIdentity": {
+            "principalId": "A2D28BXN08GMO"
+          },
+          "arn": "arn:aws:s3:::s3-stock-prices-ms"
+        },
+        "object": {
+          "key": "input-data/stock_pricing.csv",
+          "size": 521747,
+          "eTag": "1bf8086782d16b846a0c7e626c8ab959",
+          "sequencer": "006829C507E7724D15"
+        }
+      }
+    }
+  ]
+}
